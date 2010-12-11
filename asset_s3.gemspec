@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{asset_s3}
-  s.version = "0.0.0"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Daniel Spangenberg"]
@@ -20,10 +20,12 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "asset_s3.gemspec",
     "lib/asset_s3.rb",
     "spec/asset_s3_spec.rb",
     "spec/spec_helper.rb"
